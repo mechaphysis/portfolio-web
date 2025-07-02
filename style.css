@@ -3,14 +3,12 @@
   font-family: 'Apoc';
   src: url(fonts/Apoc-Revelations-Variable.woff) format(woff);
   font-weight: 100 800;
-  font-display: swap;
 }
 
 @font-face {
   font-family: 'Surt';
   src: url(fonts/Surt-Variable.woff) format(woff);
   font-weight: 100 800;
-  font-display: swap;
 }
 
 :root {
@@ -42,7 +40,7 @@ nav {
 }
 
 .firstLine {
-    font-family: 'Surt';
+    font-family: 'Surt', sans-serif;
     font-variation-settings: "wght" 280, "wdth" 100, "slnt" 0;
     font-feature-settings: "liga" 0, "calt" 0, "dlig" 0, "smcp", "c2sc";
 	text-transform: uppercase;
@@ -54,7 +52,7 @@ nav {
 }
 
 .secondLine {
-    font-family: 'Apoc';
+    font-family: 'Apoc', serif;
     font-feature-settings: "liga" 0, "calt" 0, "dlig" 0, "ss01";
     justify-content: flex-end;
     text-transform: uppercase;
